@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Goyal - Web Developer & Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">DG</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+    <div class="profile-image">
+        <img src="profile.jpg" alt="Dhruv Goyal">
+    </div>
+
+    <div class="home-text">
+        <h1 class="glitch" data-text="Dhruv Goyal">Dhruv Goyal</h1>
+        <p class="tagline">Web Developer & Programmer</p>
+        <p class="intro">Crafting digital experiences with clean code and creative solutions</p>
+        <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate <strong>Full Stack Developer</strong> in training with a deep understanding of various problem-solving skills and a keen interest in creating versatile real-world applications.</p>
+                    <p>I am honing my front-end and back-end skills, constantly exploring new technologies and frameworks. My journey in web development is driven by curiosity and the desire to build solutions that make a difference.</p>
+                    <p>Always ready to learn, adapt, and get better day by day, I believe in writing clean, efficient code and creating user experiences that are both functional and delightful.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/dhruv-goyal-494991313" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/DHRUV7801" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/Dhruvgm78" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Structure & Semantics</p>
+                </div>
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Styling & Animations</p>
+                </div>
+                <div class="skill-card" data-skill="tailwind">
+                    <div class="skill-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Tailwind CSS</h3>
+                    <p>Utility-First Framework</p>
+                </div>
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Web Apps</p>
+                </div>
+                <div class="skill-card" data-skill="c">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>C</h3>
+                    <p>System Programming</p>
+                </div>
+                <div class="skill-card" data-skill="cpp">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>C++</h3>
+                    <p>Object-Oriented</p>
+                </div>
+                <div class="skill-card" data-skill="sql">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <h3>Basketball Score Calculator</h3>
+                    <p>An interactive basketball score tracking application that calculates and displays real-time game statistics with a clean, intuitive interface.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://d78basketball-scoreboard.netlify.app/"target="_blank"class="btn btn-project">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Netflix Homepage<br>Clone</h3>
+                    <p>A pixel-perfect recreation of Netflix's landing page featuring responsive design, hover effects, modern UI elements, and dynamic streaming interfaces.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://d78-clone.netlify.app/" target="_blank"class="btn btn-project">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Saree Website</h3>
+                    <p>A fully functional e-commerce platform for saree shopping with product filtering, cart management, and elegant product displays.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://d78e-com-anita-creation.netlify.app/" target="_blank"class="btn btn-project">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Have a project in mind or just want to chat? Feel free to reach out!</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/dhruv-goyal-494991313" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/DHRUV7801" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://x.com/Dhruvgm78" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dhruv Goyal. Crafted with passion and code.</p>
+        </div>
+    </footer>
+
+    <!-- Skill Documentation Modal -->
+    <div class="modal" id="skillModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
